@@ -12,4 +12,8 @@ import androidx.compose.foundation.layout.padding
 import com.example.navigasiku.view.FormIsian
 import com.example.navigasiku.view.TampilData
 
+enum class Navigasi {
+    Formulir,
+    Detail
+}
 
