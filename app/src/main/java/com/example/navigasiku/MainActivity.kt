@@ -7,4 +7,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.ui.Modifier
 import com.example.navigasiku.ui.theme.NavigasiKuTheme
 import com.example.navigasiku.DataApp
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
 
+
+    }
+}
