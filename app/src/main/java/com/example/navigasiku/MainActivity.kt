@@ -11,6 +11,11 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-
+        setContent {
+            NavigasiKuTheme {
+                // DataApp sudah mengelola Scaffold & NavHost sendiri
+                DataApp(modifier = Modifier)
+            }
+        }
     }
 }
